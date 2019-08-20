@@ -20,6 +20,8 @@ void removeBeginning();
 void removeEnd();
 void removeSpecific(int);
 
+//Sample test
+
 struct Node
 {
    int data;
