@@ -20,7 +20,6 @@ void removeBeginning();
 void removeEnd();
 void removeSpecific(int);
 
-//Sample test
 
 struct Node
 {
@@ -51,7 +50,7 @@ int main()
 			    //printf("Enter the two values where you wanto insert: ");
 //				scanf("%d%d",&loc1,&loc2);
 //				insertBetween(value,loc1,loc2);
-			   printf("Enter the values where you wanto insert: ");
+			    printf("Enter the values where you wanto insert: ");
 		   	   	scanf("%d",&loc1);
 				insertNodeAtMiddle(loc1,value);
 				break;
@@ -152,6 +151,7 @@ void insertNodeAtMiddle(int pos,int value)
 			temp=temp->next;
 			if(temp==NULL)
 			{
+
 				break;
 			}
 		}
